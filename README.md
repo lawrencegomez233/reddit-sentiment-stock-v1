@@ -1,2 +1,35 @@
 # reddit-sentiment-stock-v1
 A Version 1 project that analyzes Reddit sentiment and compares it to Apple (AAPL) stock price movement. Uses VADER for sentiment scoring, Yahoo Finance for price data, and a Random Forest Classifier to predict price direction.
+
+# Reddit Sentiment vs Apple Stock Price Prediction
+
+## 🧠 What I Did
+I made a Python project that checks if Reddit posts about Apple (AAPL) can help predict if the stock will go up or down the next day.
+
+## 🔎 How I Did It
+
+1. I scraped Reddit posts from subreddits like r/stocks and r/wallstreetbets.
+2. I used VADER (a sentiment tool) to analyze how positive or negative each post was.
+3. I added up the average daily sentiment and number of posts.
+4. I got Apple's stock prices from Yahoo Finance.
+5. I merged the sentiment and price data.
+6. I made features like:
+   - Sentiment from yesterday
+   - 3-day sentiment average
+   - Moving average of stock price
+   - Volatility (price changes)
+7. I trained a RandomForestClassifier model.
+8. The model reached 53% accuracy.
+
+## 📈 Results
+- The model is a little better than guessing (55.5% accuracy).
+- Most helpful features: recent sentiment and stock volatility.
+- Visuals show sentiment doesn't always line up with price directly.
+
+## 🛠️ Future Ideas
+- Get more Reddit data from more months or years.
+- Add news or Twitter sentiment.
+- Try different models like XGBoost or LSTM.
+
+## 📷 Example Charts
+- Line plot: Sentiment vs Apple stock price
