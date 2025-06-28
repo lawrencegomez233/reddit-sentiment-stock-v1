@@ -9,3 +9,5 @@ df['Date'] = pd.to_datetime(df['Date'])
 
 st.line_chart(df.set_index('Date')[['Close_AAPL', 'avg_compound']])
 st.bar_chart(df.set_index('Date')['num_posts'])
+
+# to run, do: streamlit run dashboard.py
