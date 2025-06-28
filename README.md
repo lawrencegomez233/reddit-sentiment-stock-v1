@@ -3,10 +3,10 @@ A Version 1 project that analyzes Reddit sentiment and compares it to Apple (AAP
 
 # Reddit Sentiment vs Apple Stock Price Prediction
 
-## 🧠 What I Did
+# Overview
 I made a Python project that checks if Reddit posts about Apple (AAPL) can help predict if the stock will go up or down the next day.
 
-## 🔎 How I Did It
+# Steps Taken
 
 1. I scraped Reddit posts from subreddits like r/stocks and r/wallstreetbets.
 2. I used VADER (a sentiment tool) to analyze how positive or negative each post was.
@@ -21,15 +21,15 @@ I made a Python project that checks if Reddit posts about Apple (AAPL) can help 
 7. I trained a RandomForestClassifier model.
 8. The model reached 53% accuracy.
 
-## 📈 Results
+# Results
 - The model is a little better than guessing (55.5% accuracy).
 - Most helpful features: recent sentiment and stock volatility.
 - Visuals show sentiment doesn't always line up with price directly.
 
-## 🛠️ Future Ideas
+# Future Ideas
 - Get more Reddit data from more months or years.
 - Add news or Twitter sentiment.
 - Try different models like XGBoost or LSTM.
 
-## 📷 Example Charts
+# Example Charts
 - Line plot: Sentiment vs Apple stock price
