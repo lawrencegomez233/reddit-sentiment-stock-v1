@@ -21,7 +21,7 @@ Made a Python project that checks if Reddit posts about Apple (AAPL) can help pr
 8. The model reached 55.5% accuracy.
 
 # Results
-- The model is a little better than guessing (55.5% accuracy).
+- 55.5% accuracy
 - Most helpful features: recent sentiment and stock volatility.
 - Visuals show sentiment doesn't always line up with price directly.
 
